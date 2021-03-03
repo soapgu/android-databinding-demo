@@ -50,8 +50,6 @@ class PlainOldActivity : AppCompatActivity() {
 
         binding.lifecycleOwner = this
         binding.viewmodel = viewModel
-
-        binding.unbind()
     }
 
 
